@@ -1,6 +1,6 @@
 # Simple HTML Landing Page
 
-🌐 **Live Demo:** [Visit Site](https://huzaifa-frontend.github.io/html-landing-page/)
+🌐 **Live Demo:** [Click here to visit site](https://huzaifa-frontend.github.io/html-landing-page/)
 
 ## 📋 Overview
 
