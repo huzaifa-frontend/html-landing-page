@@ -55,6 +55,9 @@ No build tools or installation required — it's pure frontend HTML/CSS.
 - Quote by Dolly Parton
 - Designed & Developed by [Huzaifa Karim](https://github.com/huzaifa-frontend)
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ## ✍️ Author
 
