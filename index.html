@@ -1,42 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My Landing Page</title>
     <style>
-      
-      nav {
-        background-color: #333;
-        overflow: hidden;
-        padding:0px;
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
       }
 
+      body, html {
+        height: 100%;
+      }
+
+      nav {
+        background-color: #222;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      }
 
       nav a {
-        float: left;
-        display: block;
         color: white;
-        text-align: center;
-        padding: 14px 16px;
         text-decoration: none;
+        margin: 0 20px;
+        padding: 10px 15px;
+        transition: 0.3s;
       }
+
       nav a:hover {
-        background-color: #ffffff;
-        color: black;
+        background-color: white;
+        color: #222;
+        border-radius: 5px;
       }
-  
+
       .content {
-        padding: 20px;
         background-image: url("https://images.unsplash.com/photo-1678135487929-0153e7eaf6e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
-        background-repeat: no-repeat;
         background-size: cover;
-        background-position: fixed;
-        height: 100vh;
-        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: calc(100vh - 60px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        color: white;
+      }
+
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 40px;
+        border-radius: 10px;
+        max-width: 700px;
+        margin: 0 20px;
+      }
+
+      h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.3em;
+        line-height: 1.6;
+        color: #f1f1f1;
       }
     </style>
   </head>
   <body>
-    
+
     <nav>
       <a href="#">Home</a>
       <a href="#">About</a>
@@ -44,11 +81,12 @@
       <a href="#">Services</a>
     </nav>
 
-  
     <div class="content">
-        <font color="White">
-      <h1>Welcome to my landing page!</h1>
-      <font size="+2">Quote: " The way I see it, if you want the rainbow, you gotta put up with the rain." —Dolly Parton</font>
+      <div class="overlay">
+        <h1>Welcome to my landing page!</h1>
+        <p>"The way I see it, if you want the rainbow, you gotta put up with the rain."<br>— Dolly Parton</p>
+      </div>
     </div>
+    
   </body>
 </html>
