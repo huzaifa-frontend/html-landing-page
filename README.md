@@ -46,7 +46,8 @@ No build tools or installation required — it's pure frontend HTML/CSS.
 ```
 📦 html-landing-page
  ┣ 📄 index.html
- ┗ 📄 README.md
+ ┣ 📄 README.md
+ ┗ 📄 LICENSE
 ```
 
 ## ✨ Credits
