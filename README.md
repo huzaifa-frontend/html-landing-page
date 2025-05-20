@@ -65,12 +65,9 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 **Muhammad Huzaifa Karim**  
 [GitHub Profile](https://github.com/huzaifakarim1)
 
----
-
 ## 🔄 Deployment
 
 This project is deployed via GitHub Pages. Any changes pushed to the main branch will automatically update the live site.
-
 
 ## 📬 Contact
 
